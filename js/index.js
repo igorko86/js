@@ -18,7 +18,7 @@ function result(a,b,c){
 function sum(a,b,c){
     return b*b - 4 * a * c;
 }
-let a = parseInt(prompt("введіть число більше нуля"));
-let b = parseInt(prompt("введіть число більше нуля"));
-let c = parseInt(prompt("введіть число більше нуля"));
+let a = prompt("введіть число більше нуля");
+let b = prompt("введіть число більше нуля");
+let c = prompt("введіть число більше нуля");
 result(a,b,c);
